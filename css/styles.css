@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Lilita+One&family=Montserrat+Alternates:wght@600;700&family=Poppins&display=swap");
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #fff;
+  position: relative;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+form small {
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo-text {
+  color: #1ea896 !important;
+  font-family: "Lilita One";
+  font-size: 38px;
+}
+
+.navbar .nav-link {
+  font-family: "Montserrat Alternates";
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #ff715b;
+}
+
+#home {
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  line-height: 32px;
+  font-family: "Balsamiq Sans";
+}
+
+.text1 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.text2 {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.text3 {
+  padding-bottom: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff715b;
+}
+
+.btn-brand {
+  background-color: #ff715b;
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  margin-bottom: 12%;
+}
+
+.btn-brand:hover {
+  background-color: #dd2f14d8;
+  color: #fff;
+}
+
+#aboutme {
+  background-color: #1ea89633;
+  background-image: url("../H2.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: right;
+  display: flex;
+  background-attachment: inherit;
+  align-items: center;
+  padding: 5%;
+}
+
+#aboutme p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#aboutme h3 {
+  font-family: "Balsamiq Sans";
+}
+
+.section-intro {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-intro h1 {
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Balsamiq Sans";
+  color: #ff715b;
+}
+
+.section-intro p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.case-study-item {
+  border: 2px solid rgba(128, 128, 128, 0.185);
+  border-radius: 8%;
+  padding: 5%;
+  position: relative;
+  overflow: hidden;
+}
+
+.case-study-item h5 {
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.case-study-item p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.overlay-card {
+  justify-content: space-between;
+  padding: 34px 30px;
+  border-radius: 0px 0px 8px 8px;
+  background-color: #4c5454;
+  display: flex;
+}
+
+.overlay-write {
+  justify-content: space-between;
+  padding: 34px 30px;
+  border-radius: 0px 0px 8px 8px;
+  background-color: #4c5454;
+  display: flex;
+}
+
+.overlay {
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: #4c545471;
+  height: 100%;
+  top: 200%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: all 0.6s ease;
+}
+
+.case-study-item:hover .overlay {
+  top: 0;
+  bottom: 0;
+}
+
+.skills {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2px;
+}
+
+#contact {
+  background-color: #1ea89633;
+  background-image: url("../Vector.svg");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center center;
+  display: flex;
+  background-attachment: inherit;
+  align-items: center;
+  padding: 5%;
+}
+
+#contact h3 {
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#contact p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#contact .btn.btn-brand {
+  width: 100%;
+}
+
+@media screen and (max-width: 990px) {
+  .message-img {
+    display: none;
+  }
+}
+
+footer {
+  background-color: #4c5454;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer .social-icons a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  padding-left: 1em;
+  padding-top: 1.5em;
+}
+
+footer .social-icons a:hover {
+  color: #ff715b;
+}
+
+#dev-first {
+  background-color: #f9f9f9;
+}
+
+#dev-first .dev-text1 {
+  color: #ff715b;
+  font-family: "Balsamiq Sans";
+  font-weight: 700;
+  padding-top: 3em;
+}
+
+#dev-first .dev-img {
+  padding-bottom: 5em;
+}
+
+#dev-case-study .dev-case {
+  width: 100%;
+}
